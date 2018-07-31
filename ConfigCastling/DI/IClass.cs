@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PrintingAround
+namespace ConfigCastling.DI
 {
-    public class Class1
+    public interface IClass
     {
+        void SaySomething();
     }
 }
